@@ -3,21 +3,286 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rayan Safwan Muid</title>
+  <meta name="description" content="Rayan Safwan Muid — Mechanical Engineering student at The University of Texas at Arlington. Portfolio featuring Formula SAE, manufacturing, controls, robotics, CAD, and engineering projects.">
+  <title>Rayan Safwan Muid | Mechanical Engineering Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Rayan Safwan Muid</h1>
-  <p>Mechanical Engineering Student at The University of Texas at Arlington</p>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Rayan Safwan Muid home">Rayan<span>.</span></a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav class="nav-links" id="primary-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-  <h2>About Me</h2>
-  <p>
-    Welcome to my engineering portfolio. This website is currently under development.
-  </p>
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="reveal">
+          <p class="eyebrow">Mechanical Engineering · UTA</p>
+          <h1>Rayan Safwan <span>Muid</span></h1>
+          <p class="hero-lead">
+            Mechanical Engineering student focused on hands-on design, manufacturing, vehicle systems, robotics, simulation, and engineering analysis.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button" href="#contact">Contact Me</a>
+          </div>
+        </div>
 
-  <h2>Projects</h2>
-  <p>Projects coming soon.</p>
+        <aside class="hero-card reveal" aria-label="Profile summary">
+          <div class="monogram" aria-hidden="true">RM</div>
+          <div class="hero-card-copy">
+            <strong>B.S. Mechanical Engineering</strong>
+            <span>The University of Texas at Arlington · Expected Spring 2027</span>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-  <h2>Contact</h2>
-  <p>More information coming soon.</p>
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker">About</p>
+            <h2>Engineering through design, analysis, and iteration.</h2>
+          </div>
+          <p>
+            My work spans CAD, manufacturing, controls, robotics, thermal-fluid systems, and racecar engineering, with an emphasis on learning by building and testing real systems.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="panel reveal">
+            <p>
+              I am pursuing a Bachelor of Science in Mechanical Engineering at The University of Texas at Arlington. Alongside coursework, I have worked on Formula SAE components, manufacturing-process design, autonomous robots, control-system analysis, and engineering projects involving both hardware and simulation.
+            </p>
+            <p>
+              I enjoy projects where mechanical design, measurement, manufacturing, and analytical problem solving overlap. I am continuing to strengthen my CAD, simulation, programming, and technical communication skills while preparing for engineering internships and early-career roles.
+            </p>
+          </div>
+
+          <div class="facts reveal">
+            <div class="fact">
+              <strong>UTA Formula SAE</strong>
+              <span>Engine Department associate member</span>
+            </div>
+            <div class="fact">
+              <strong>Manufacturing</strong>
+              <span>Plant internship + production engineering exposure</span>
+            </div>
+            <div class="fact">
+              <strong>Design & CAD</strong>
+              <span>SolidWorks, engineering drawings, 3D printing</span>
+            </div>
+            <div class="fact">
+              <strong>Analysis</strong>
+              <span>MATLAB, ANSYS, controls, thermal-fluid systems</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker">Experience</p>
+            <h2>Hands-on engineering experience.</h2>
+          </div>
+          <p>Selected experience in racecar development and industrial manufacturing.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-date">Aug 2025 — Present</div>
+            <div>
+              <h3>Formula SAE — Associate Member</h3>
+              <p class="timeline-place">UTA Racing Club · Engine Department</p>
+              <p>
+                Designed and modeled a custom casing for a dual-output rotary position sensor used in the racecar gear-position system. Used precision measurement tools to capture component dimensions, developed CAD geometry and drawings, and supported fabrication through 3D printing. Also produced CAD drawings for an intake-to-turbo flange.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-date">May 2025 — Jul 2025</div>
+            <div>
+              <h3>Associate Engineer Intern</h3>
+              <p class="timeline-place">Anwar Ispat</p>
+              <p>
+                Supported engineering and production activities in a steel-manufacturing plant, learned plant systems including HVAC, air-pollution control, and water treatment, monitored production operations, and participated in troubleshooting a malfunctioning vacuum-hood swivel system traced to an electric motor.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker">Featured Projects</p>
+            <h2>Selected engineering work.</h2>
+          </div>
+          <p>Projects across controls, robotics, manufacturing, CAD, and system design.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="card reveal">
+            <h3>Pitch Dynamics & Stability Analysis</h3>
+            <p class="project-meta">Dynamic systems · MATLAB · Controls</p>
+            <p>
+              Modeled aircraft pitch dynamics using second-order differential equations, evaluated stability through eigenvalue analysis, simulated open- and closed-loop responses, designed feedback control, and analyzed frequency response and Bode behavior.
+            </p>
+            <div class="tags">
+              <span class="tag">MATLAB</span>
+              <span class="tag">Eigenvalues</span>
+              <span class="tag">Bode Plots</span>
+              <span class="tag">Feedback Control</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <h3>Autonomous Rover for Coin Retrieval</h3>
+            <p class="project-meta">Mechanical design · Mechatronics · 3D printing</p>
+            <p>
+              Collaborated on a rover designed to retrieve and transport coins using a vacuum pickup mechanism. Contributed to the arm concept, electrical integration, and 3D-printed components used to satisfy the project requirements.
+            </p>
+            <div class="tags">
+              <span class="tag">3D Printing</span>
+              <span class="tag">Circuits</span>
+              <span class="tag">Mechanism Design</span>
+              <span class="tag">Team Design</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <h3>Autonomous Payload-Retrieval Robot</h3>
+            <p class="project-meta">LEGO Mindstorms · Sensors · Programming</p>
+            <p>
+              Helped develop the control code and pressure-sensor structure for an autonomous robot that followed a line, collected payloads, navigated an obstacle course, and delivered them to a target area. The team completed the full course repeatedly with all required payloads plus the bonus payload.
+            </p>
+            <div class="tags">
+              <span class="tag">Robotics</span>
+              <span class="tag">Sensors</span>
+              <span class="tag">Autonomous Navigation</span>
+              <span class="tag">Programming</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <h3>Ball Valve Manufacturing Project</h3>
+            <p class="project-meta">SolidWorks · Manufacturing · GD&T</p>
+            <p>
+              Developed a manufacturing plan for a lead-free brass full-port ball valve, including material selection, forging and CNC process planning, assembly sequencing, hydrostatic testing, cost estimation, and detailed engineering drawings for the valve components.
+            </p>
+            <div class="tags">
+              <span class="tag">SolidWorks</span>
+              <span class="tag">CNC</span>
+              <span class="tag">Forging</span>
+              <span class="tag">Engineering Drawings</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker">Skills</p>
+            <h2>Tools I use and continue to develop.</h2>
+          </div>
+          <p>Grouped by the types of engineering work they support.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-group reveal">
+            <h3>Design & Manufacturing</h3>
+            <div class="skill-list">
+              <span class="skill">SolidWorks</span>
+              <span class="skill">CAD</span>
+              <span class="skill">GD&T</span>
+              <span class="skill">3D Printing</span>
+              <span class="skill">Engineering Drawings</span>
+            </div>
+          </div>
+
+          <div class="skill-group reveal">
+            <h3>Analysis & Programming</h3>
+            <div class="skill-list">
+              <span class="skill">MATLAB</span>
+              <span class="skill">ANSYS</span>
+              <span class="skill">C</span>
+              <span class="skill">LabVIEW</span>
+              <span class="skill">LaTeX</span>
+            </div>
+          </div>
+
+          <div class="skill-group reveal">
+            <h3>Data & Workflow</h3>
+            <div class="skill-list">
+              <span class="skill">Microsoft Office</span>
+              <span class="skill">Power BI</span>
+              <span class="skill">Tableau</span>
+              <span class="skill">Trello</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="resume">
+      <div class="container">
+        <div class="resume-box reveal">
+          <div>
+            <p class="section-kicker">Resume</p>
+            <h3>Updated resume coming next.</h3>
+            <p>
+              I am rebuilding my resume alongside this portfolio so the downloadable version reflects my latest projects, experience, and technical skills.
+            </p>
+          </div>
+          <div class="resume-status">Resume update in progress</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-box reveal">
+          <div>
+            <p class="section-kicker">Contact</p>
+            <h2>Let’s connect.</h2>
+            <p>Open to engineering internships, project collaboration, and professional opportunities.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="button primary" href="mailto:rsm0859@mavs.uta.edu">Email Me</a>
+            <a class="button" href="https://github.com/RayanMuid25" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span>© <span id="year"></span> Rayan Safwan Muid</span>
+      <span>Mechanical Engineering · Arlington, Texas</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
